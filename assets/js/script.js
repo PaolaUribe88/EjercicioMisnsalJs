@@ -130,15 +130,14 @@ let mostrarPagina = ()=>{
 
     // asociamos/anidamos/añadimos/anexamos la fila al contenedor correspondiente
     contenedorSegundaFilaIzq.appendChild(filaSupContenedorSegundaFilaIzq);
-//______________________________________________________________________________________________________________________________________
+//________________________________________________________________________________________________________________
    //CREAMOS LA FILA INFERIOR DEL CONTENEDOR 19
    let filaInfcontenedorSegundaFilaIzq = document.createElement('div');
    filaInfcontenedorSegundaFilaIzq .setAttribute('class', 'row');
   
-   //CREAMOS LA COLUMNA ISQUIERDA DE LA FILA INFERIOR QUE TENDRA LOS TITULOS 20
+   //CREAMOS LA COLUMNA IZQUIERDA DE LA FILA INFERIOR QUE TENDRA LOS TITULOS 20
    let colIzqFilaInfcontenedorSegundaFilaIzq = document.createElement('div');
-   colIzqFilaInfcontenedorSegundaFilaIzq.setAttribute('class', 'col-md-6');
-   colIzqFilaInfcontenedorSegundaFilaIzq.style.color='blue';
+   colIzqFilaInfcontenedorSegundaFilaIzq.setAttribute('class', 'col-md-6 miClase');
 
    //CREAMOS LOS PARRAFOS CON LOS TITULOS 21
    let parrafoColIzqFilaInfcontenedorSegundaFilaIzq = document.createElement('p')
@@ -174,8 +173,8 @@ let mostrarPagina = ()=>{
 
    //ASOCIAMOS LA SEGUNDA FILA PRINCIPAL IZQUIERDA AL ELEMENTO PRINCIPAL DE LA IZQUIERDA
    columnaIzquierdaMain.appendChild(segundoFilaIzqContenido);
-    //______________________________________________________________________________________________________fin error
 
+   //___________________________CONTENIDO COLUMNA DERECHA________________________________
     // creamos la primer fila derecha de contenido
     let primeraFilaDereha = document.createElement('div');
     primeraFilaDereha.setAttribute('class', 'row');
